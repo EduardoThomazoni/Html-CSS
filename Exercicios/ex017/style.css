@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    font: normal normal 17px arial;
+}
+h1, h2{
+    font-style: italic;
+}

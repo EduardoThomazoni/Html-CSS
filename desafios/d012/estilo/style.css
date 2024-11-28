@@ -2,12 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte01: Arial, Helvetica, sans-serif;
+    --fonte02: "Passion One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+}
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
 body{
+    min-height: 100vh;
     background-color: lightgrey;
 }
 
@@ -19,7 +28,7 @@ header{
 }
 
 header h1{
-font-family: "Passion One", sans-serif;
+font-family: var(--fonte02);
 font-weight: bold;
 font-size: 50px ;
 font-variant: small-caps;
@@ -29,6 +38,7 @@ padding-top: 50px;
 
 header p{
     padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -44,6 +54,7 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte03);
 
 }
 
@@ -63,6 +74,7 @@ section.imagem{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.215);
     width: 300px;
+    
 }
 
 footer{

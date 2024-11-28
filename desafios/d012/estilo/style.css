@@ -30,7 +30,7 @@ header{
 header h1{
 font-family: var(--fonte02);
 font-weight: bold;
-font-size: 50px ;
+font-size: 8.5vw;
 font-variant: small-caps;
 padding-top: 50px;
 
@@ -55,6 +55,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte03);
+    font-size: 3.5vw;
 
 }
 
@@ -72,8 +73,9 @@ section.imagem{
 
 }
 section.imagem > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.215);
-    width: 300px;
+    padding: 5px;
     
 }
 
